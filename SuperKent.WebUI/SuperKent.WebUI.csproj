@@ -5,13 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Assets\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\Assets\001-arrows-1.png" />
     <None Include="wwwroot\Assets\108117216654200" />
-    <None Include="wwwroot\Assets\analytics.js.indir" />
+    <None Include="wwwroot\Assets\analytics.js" />
     <None Include="wwwroot\Assets\animate.css" />
     <None Include="wwwroot\Assets\fbevents.js.indir" />
     <None Include="wwwroot\Assets\footer_logo1.png" />
@@ -21,7 +17,7 @@
     <None Include="wwwroot\Assets\form.css" />
     <None Include="wwwroot\Assets\gtm.js.indir" />
     <None Include="wwwroot\Assets\jquery.fancybox.min.css" />
-    <None Include="wwwroot\Assets\jquery.fancybox.min.js.indir" />
+    <None Include="wwwroot\Assets\jquery.fancybox.min.js" />
     <None Include="wwwroot\Assets\jquery.min.js.indir" />
     <None Include="wwwroot\Assets\kvkkpolitikasivebasvuruformu.html" />
     <None Include="wwwroot\Assets\logo.png" />
@@ -38,14 +34,14 @@
     <None Include="wwwroot\Assets\mp8.jpg" />
     <None Include="wwwroot\Assets\mp9.jpg" />
     <None Include="wwwroot\Assets\owl.carousel.min.css" />
-    <None Include="wwwroot\Assets\owl.carousel.min.js.indir" />
+    <None Include="wwwroot\Assets\owl.carousel.min.js" />
     <None Include="wwwroot\Assets\px" />
     <None Include="wwwroot\Assets\run.js.indir" />
     <None Include="wwwroot\Assets\sanaltur.png" />
     <None Include="wwwroot\Assets\style.css" />
     <None Include="wwwroot\Assets\track.ashx" />
     <None Include="wwwroot\Assets\validate.js.indir" />
-    <None Include="wwwroot\Assets\validateMessage.js.indir" />
+    <None Include="wwwroot\Assets\validateMessage.js" />
     <None Include="wwwroot\Assets\validationEngine.jquery.css" />
     <None Include="wwwroot\Assets\villaplanslider.jpg" />
   </ItemGroup>

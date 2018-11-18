@@ -282,7 +282,6 @@
     font-size: 25px;
     display: block;
     transition: all 0.2s ease-in-out;
-    background-image: url(../images/burger.png);
     background-size: 70%;
     background-position: center center;
     background-repeat: no-repeat;
