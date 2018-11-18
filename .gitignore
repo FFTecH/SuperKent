@@ -5,6 +5,7 @@ SuperKent.Business/bin/Debug
 SuperKent.DataAccessLayer/bin/Debug
 SuperKent.Core/bin/Debug
 SuperKent.Entites/bin/Debug
+SuperKent.WebUI/bin/Debug
 *.swp
 *.*~
 project.lock.json
