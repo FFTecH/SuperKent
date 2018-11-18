@@ -1,0 +1,9 @@
+C:\Users\INTERSAN\Desktop\SuperKent\SuperKent.Core\bin\Debug\netcoreapp2.1\SuperKent.Core.deps.json
+C:\Users\INTERSAN\Desktop\SuperKent\SuperKent.Core\bin\Debug\netcoreapp2.1\SuperKent.Core.dll
+C:\Users\INTERSAN\Desktop\SuperKent\SuperKent.Core\bin\Debug\netcoreapp2.1\SuperKent.Core.pdb
+C:\Users\INTERSAN\Desktop\SuperKent\SuperKent.Core\obj\Debug\netcoreapp2.1\SuperKent.Core.csprojAssemblyReference.cache
+C:\Users\INTERSAN\Desktop\SuperKent\SuperKent.Core\obj\Debug\netcoreapp2.1\SuperKent.Core.csproj.CoreCompileInputs.cache
+C:\Users\INTERSAN\Desktop\SuperKent\SuperKent.Core\obj\Debug\netcoreapp2.1\SuperKent.Core.AssemblyInfoInputs.cache
+C:\Users\INTERSAN\Desktop\SuperKent\SuperKent.Core\obj\Debug\netcoreapp2.1\SuperKent.Core.AssemblyInfo.cs
+C:\Users\INTERSAN\Desktop\SuperKent\SuperKent.Core\obj\Debug\netcoreapp2.1\SuperKent.Core.dll
+C:\Users\INTERSAN\Desktop\SuperKent\SuperKent.Core\obj\Debug\netcoreapp2.1\SuperKent.Core.pdb

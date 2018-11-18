@@ -1,0 +1,1284 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: 'MyriadPro';
+}
+focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: #000;
+	font-family: BrandonGrotesque;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: 400;
+	text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+header, nav, article, section, footer, figure, aside {
+	display: block;
+}
+input, button, select, textarea {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+img {
+	width: 100%;
+}
+.clear {
+	width: 0;
+	height: 0;
+	margin: 0 !important;
+	padding: 0;
+	line-height: 0;
+	font-size: 0;
+	clear: both;
+}
+
+@font-face {
+	font-family: 'martyn';
+	src: url('../fonts/martyn_demo-webfont.eot');
+	src: url('../fonts/martyn_demo-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/martyn_demo-webfont.woff2') format('woff2'),  url('../fonts/martyn_demo-webfont.woff') format('woff'),  url('../fonts/martyn_demo-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Bg-Medium';
+	src: url('../fonts/BrandonGrotesque-Medium.eot');
+	src: url('../fonts/BrandonGrotesque-Medium.eot.eot?#iefix') format('embedded-opentype'),  url('../fonts/BrandonGrotesque-Medium.woff2') format('woff2'),  url('../fonts/BrandonGrotesque-Medium.woff') format('woff'),  url('../fonts/BrandonGrotesque-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Bg-Black';
+	src: url('../fonts/BrandonGrotesque-Black.eot');
+	src: url('../fonts/BrandonGrotesque-Black.eot.eot?#iefix') format('embedded-opentype'),  url('../fonts/BrandonGrotesque-Black.woff2') format('woff2'),  url('../fonts/BrandonGrotesque-Black.woff') format('woff'),  url('../fonts/BrandonGrotesque-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Bg-Bold';
+	src: url('../fonts/BrandonGrotesque-Bold.eot');
+	src: url('../fonts/BrandonGrotesque-Bold.eot.eot?#iefix') format('embedded-opentype'),  url('../fonts/BrandonGrotesque-Bold.woff2') format('woff2'),  url('../fonts/BrandonGrotesque-Bold.woff') format('woff'),  url('../fonts/BrandonGrotesque-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Bg-Regular';
+	src: url('../fonts/BrandonGrotesque-Regular.eot');
+	src: url('../fonts/BrandonGrotesque-Regular.eot.eot?#iefix') format('embedded-opentype'),  url('../fonts/BrandonGrotesque-Regular.woff2') format('woff2'),  url('../fonts/BrandonGrotesque-Regular.woff') format('woff'),  url('../fonts/BrandonGrotesque-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Bg-Light';
+	src: url('../fonts/BrandonGrotesque-Light.eot');
+	src: url('../fonts/BrandonGrotesque-Light.eot.eot?#iefix') format('embedded-opentype'),  url('../fonts/BrandonGrotesque-Light.woff2') format('woff2'),  url('../fonts/BrandonGrotesque-Light.woff') format('woff'),  url('../fonts/BrandonGrotesque-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadPro';
+	src: url(../fonts/MyriadPro-Regular.eot) format("embedded-opentype"), url(../fonts/MyriadPro-Regular.woff) format("woff"), url(../fonts/MyriadPro-Regular.ttf) format("truetype"), url(../fonts/MyriadPro-Regular.svg) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+.container {
+	/* width: 90%; */
+	/* margin: 0 auto; */
+	/* display: table; */
+}
+header {
+	background: #efefef;
+	padding: 0;
+	box-sizing: border-box;
+}
+content {
+	display: block;
+}
+.logo {
+	position: absolute;
+	z-index: 9;
+	left: 130px;
+	top: 35px;
+	float: left;
+}
+.logo h1 {
+	width: 100%;
+	margin: 0 auto;
+}
+.dilsecenek {
+	float: left;
+	width: 200px;
+	margin-top: 35px;
+	z-index: 2;
+	position: relative;
+}
+.dilsecenek ul {
+	display: block;
+}
+.dilsecenek ul li {
+	float: left;
+	margin: 0 5px;
+	border-bottom: 2px solid transparent;
+}
+.dilsecenek ul li a {
+	font-size: 20px;
+	color: #828283;
+	display: block;
+}
+.dilsecenek ul li:hover {
+	border-bottom: 2px solid #828283;
+	font-weight: bold;
+}
+.dilsecenek ul li .active {
+	border-bottom: 2px solid #828283;
+	font-weight: bold;
+}
+.menu {
+	padding: 12px 0;
+	float: right;
+	width: 70%;
+	text-align: left;
+	margin: 0;
+	z-index: 2;
+	position: absolute;
+	height: 16px;
+	font-family: 'MyriadPro';
+	background-color: #ffFFff72;
+	top: 136px;
+	right: 0px;
+	line-height: 24px;
+}
+.menu ul {
+	display: table;
+	margin: 0 ;
+}
+.menu ul li {
+	float: left;
+	position: relative;
+	margin: 0 15px;
+}
+.menu ul li .submenu {
+	position: absolute;
+	/* top: 10px; */
+	left: 0px;
+	display: none;
+	width: 420px;
+	font-size: 12px;
+	overflow: hidden;
+	height: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	background-image: url(../images/baslikzemin.png);
+	transition: 0.3s ease;
+	margin-top: -5px;
+	box-shadow: 5px 5px 5px #000000a6;
+}
+
+.submenu ul li a {
+	font-size: 18px;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+	padding: 0px 0;
+	color: #FFF;
+	font-weight: 100;
+	transition: 0.3s ease;
+	text-align: left;
+}
+
+.menu ul li:hover .submenu {
+	top: 30px;
+	left: -25px;
+	display: block;
+	transition: 0.3s ease;
+}
+.menu ul li:hover .submenu li {
+	float: none;
+}
+.menu ul li:hover .submenu li a {
+	font-size: 14px;
+	border: 0;
+	line-height: 26px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	transition: none;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+.menu ul li:hover .submenu li a:hover {
+	border: 0;
+	color: #000000;
+	text-shadow: none;
+}
+.menu ul li a {
+	font-size: 18px;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+	padding: 0px 0;
+	color: #010101;
+	font-weight: 100;
+	transition: 0.3s ease;
+}
+
+
+
+.menu ul li:hover a {
+	border-bottom: 3px solid #87764f;
+	padding: 6px 0;
+	transition: 0.3s ease;
+}
+.header-phone {
+	float: right;
+	width: 607px;
+	text-align: center;
+	margin: 0;
+	z-index: 2;
+	position: relative;
+	height: 30px;
+}
+.header-phone i {
+	float: left;
+	width: 20px;
+	height: 48px;
+	display: block;
+}
+.header-phone a {
+	float: right;
+	color: #848485;
+	font-size: 28px;
+	font-weight: bold;
+}
+.header-phone a span {
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+}
+.slider {
+	/*background: url(../images/slide.jpg) no-repeat center;
+	background-size: cover;
+	position: relative;
+	height: 800px;*/
+}
+.slider .slider-text {
+	position: absolute;
+	top: 50%;
+	left: 100px;
+	color: #231f20;
+	font-family: "MyriadPro";
+	width: 30%;
+}
+.slider .slider-text h2 {
+	font-size: 40px;
+	letter-spacing: 0px;
+	font-style:  italic;
+}
+.slider .slider-text p {
+	font-family: 'MyriadPro';
+	font-size: 15px;
+	font-weight: 100;
+	font-style: italic;
+	line-height: 28px;
+	margin-top: 30px;
+}
+
+.slider .slider-text span img {
+	width: 323px;
+}
+
+
+.icon {
+	margin-bottom: 5px;
+	width: 100%;
+	display: table;
+}
+.icon span {
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	font-weight: bold;
+}
+.icon img {
+	float: right;
+	width: 14px;
+	height: auto;
+}
+.icon2 {
+	position: absolute;
+	width: auto;
+	right: 0;
+	top: 7px;
+}
+.icon2 img {
+	width: 20px;
+	height: 20px;
+}
+
+#accordion {
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+#accordion a {
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+	color: #efefef;
+	background: transparent;
+	border: 0;
+	font-family: "YanoneKaffeesatz";
+	box-sizing: border-box;
+	display: block;
+	position: relative;
+}
+#accordion a h3 {
+	text-align: right;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 40px;
+	padding-right: 20px;
+	font-family: 'MyriadPro';
+	color: #231f20;
+	margin-top: 10px;
+}
+
+#accordion a h2 {
+	text-align: right;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	float: right;
+	padding-right: 20px;
+	font-family: 'MyriadPro';
+	color: #231f20;
+	margin-top: 32px;
+	font-style:  italic;
+}
+
+#accordion a p {
+	text-align: right;
+	font-weight: 100;
+	padding-right: 20px;
+	float: right;
+	line-height: 22px;
+	color:  #231f20;
+	font-size: 15px;
+	font-style: italic;
+	position: absolute;
+	top: 120px;
+	width:  450px;
+	right: 0;
+}
+
+.accordion-content a p {
+	text-align: center !important;
+	line-height: 22px !important;
+	opacity: 0;
+	padding: 30px !important;
+	background-color: #cae6f1e3;
+	transition: 500ms;
+	width: 100% !important;
+	box-sizing: border-box;
+}
+
+.accordion-content a:hover p {
+    opacity: 1;
+    transition: 500ms;
+}
+
+.solyasla p {
+	text-align: left !important;
+    left: 20px !important;
+	width: 700px !important;
+}
+.solyasla h2 {
+	text-align: left !important;
+    float: left !important;
+    margin-left: 20px !important;
+}
+
+
+.click {
+	position: absolute;
+	bottom: 35px;
+	left: 30px;
+}
+.accordion-content {
+	position: relative;
+	width: 100%;
+	font-family: "YanoneKaffeesatz";
+	margin: 0 auto;
+	height: 500px;
+}
+.accordion-content ul {
+	display: block;
+}
+.accordion-content ul li {
+	width: 100%;
+	height: 800px;
+	color: #fff;
+	text-align: center;
+	display: table;
+	/* background: linear-gradient(0, transparent, rgba(155, 155, 176, 0.7)); */
+	color: #fff;
+	text-align: center;
+	display: table;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.accordion-content ul li a {
+	color: #fff !important;
+	text-align: center !important;
+	height: 100% !important;
+	width: 100% !important;
+	display: table !important;
+}
+.accordion-content ul li a h4 {
+	font-size: 25px;
+	/* border: 2px solid #fff; */
+	padding: 6px;
+	box-sizing: border-box;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+.accordion-content ul li a h4 span {
+	display: block;
+}
+.accordion-content ul li a p {
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 100;
+}
+.accordion-content ul li a img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transform: scale(1);
+	transition: 300ms;
+}
+.accordion-content ul li:hover img {
+	transform: scale(1.1);
+	transition: 300ms;
+}
+.icerik {
+	width: 100%;
+	margin: 0 auto;
+	line-height: 30px;
+	background-color: #c6f8fde0;
+	color: #000;
+}
+.hizmetler-btn {
+	background: url(../images/proje.jpg) no-repeat center center;
+	background-size: 100%;
+	
+	height: 450px;
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+	transition: 700ms;
+}
+a.accordion-headline:hover .hizmetler-btn {
+	background: url(../images/proje.jpg) no-repeat center;
+	background-size: 100%;
+	background-size: 102%;
+	transition: 700ms;
+}
+.specials-btn {
+	background: url(../images/projezemin.jpg) no-repeat top center;
+	background-size: 100%;
+	height: 450px;
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+	transition: 700ms;
+}
+a:hover .specials-btn {
+	background: url(../images/projezemin.jpg) no-repeat top;
+	background-size: 100%;
+	background-size: 102%;
+	transition: 700ms;
+}
+.servisler-btn {
+	background: url(../images/evzemin.jpg) no-repeat center center;
+	background-size: 100%;
+	height: 450px;
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+	transition: 700ms;
+}
+a:hover .servisler-btn {
+	background: url(../images/evzemin.jpg) no-repeat center;
+	background-size: 100%;
+	background-size: 102%;
+	transition: 700ms;
+}
+.hizala {
+	vertical-align: top;
+	display: table-cell;
+}
+.hizala h3 img {
+	width: 47px;
+}
+.hizala h2 {
+	width: 400px;
+	right: 20px;
+	font-size: 22px;
+	color: #000000;
+}
+
+.logos {
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+}
+.logos ul {
+	width: 85%;
+	display: table;
+	margin: 0 auto;
+}
+.logos ul li {
+	float: left;
+	width: 20%;
+}
+.logos ul li a {
+	display: block;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: 300ms;
+}
+.logos ul li:hover a {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	transition: 300ms;
+}
+.footer-wrapper {
+	box-sizing: border-box;
+	width: 80%;
+	margin: 30px auto;
+}
+.footer-wrap {
+	width: 95%;
+	margin: 0 auto;
+	display: table;
+}
+.box {
+	float: left;
+	display: none;
+}
+.box ul {
+	display: table;
+}
+.box ul li {
+	color: #999;
+	font-size: 16px;
+	line-height: 20px;
+	float: left;
+	margin-right: 50px;
+	line-height: 30px;
+}
+
+.sosyalmedya {
+    float: none;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.sosyalmedya h4 {
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.sosyalmedya ul {
+	display: table;
+	margin: 0 auto;
+	list-style: none;
+}
+.sosyalmedya ul li {
+	float: left;
+	position: relative;
+	cursor: pointer;
+	transition: all 0.3s ease-out 0.3s;
+	overflow: hidden;
+	display: block;
+}
+.sosyalmedya ul li::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	opacity: 0;
+	transition: width 0.3s ease-out, opacity 0.3s ease-out;
+	background: #fff;
+}
+.sosyalmedya ul li::after {
+	/* content: ""; */
+	width: 100%;
+	height: 0;
+	position: absolute;
+	/* background: #fff; */
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transition: height 0.3s ease-out 0.3s;
+	z-index: 0;
+}
+
+.footer-alt {
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+	background: #efefef;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+.footer-text {
+	float: left;
+	font-size: 16px;
+	color: #828283;
+	line-height: 55px;
+}
+.footer-text a {
+	color: #e55f04;
+}
+.footer-logo {
+	float: right;
+	width: 24%;
+}
+.footer-logo img {
+	display: table;
+	margin: 0 auto;
+	width: 60%;
+}
+.riva1 {
+	background: url(../images/rivazemin1.jpg) no-repeat center;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.riva2 {
+	background: url(../images/rivazemin2.jpg) no-repeat center;
+	background-size: cover;
+	height: 620px;
+	width: 100%;
+}
+.riva3 {
+	background: url(../images/rivazemin3.jpg) no-repeat center;
+	background-size: cover;
+	height: 780px;
+	width: 100%;
+}
+
+.rivaalt {
+    width: 80%;
+    margin: 30px auto 0 auto;
+}
+.rivaalt img{
+	width: 100%;
+}
+
+.riva1sol{
+	width: 46%;
+	float: left;
+	text-align: center;
+}
+.riva1sol span {
+	width: 100%;
+	
+}
+.rivabaslik2 {
+    margin-top: 50px;
+    display: block;
+}
+.riva1sol span img {
+	max-width: 450px;
+}
+.riva2sag span img {
+	max-width: 550px;
+}
+.riva3sol span img {
+	max-width: 650px;
+}
+
+
+.riva1sol p, .riva2sag p, .riva3sol p  {
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Bg-Regular';
+    color: #414031bf;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.riva1sag{
+	width: 52%;
+	float: left;
+}
+
+.riva2sol{
+	width: 54%;
+	float: left;
+}
+
+.riva2sag{
+	width: 46%;
+	float: left;
+	text-align: center;
+}
+
+.riva3sol{
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding-top: 130px;
+}
+
+.riva3sag{
+	width: 50%;
+	float: left;
+}
+
+
+.rivakucukresimler span {
+	float: left;
+	width: 18%;
+	margin: 50px auto;
+	padding: 1%;
+}
+
+.slideraltslogan {
+    width: 100%;
+    margin: 50px auto;
+    font-family: 'Bg-Black';
+    color: #4140317a;
+    font-size: 37px;
+    text-align: center;
+}
+.villaslideraltslogan{
+	width: 90%;
+    margin: 50px auto;
+    font-family: 'Bg-Black';
+    color: #4140317a;
+    font-size: 37px;
+}
+
+.iletisimtslogan{
+	width: 90%;
+    margin: 50px auto;
+    font-family: 'Bg-Black';
+    color: #4140317a;
+    font-size: 37px;
+}
+.lokasyonresim1 img{
+	width: 139px;
+}
+.lokasyonara{
+	width: 100%;
+	height: 80px;
+	background: #f4f4f4;
+	margin: 50px 0;
+}
+.lokasyonsol{
+	width: 46%;
+	float: left;
+	text-align: center;
+}
+.lokasyonbaslik1 img{
+	max-width: 500px;
+	margin: 30px auto;
+}
+.lokasyonsol span {
+	width: 100%;
+	display: table;
+}
+.lokasyonsol p {
+	font-family: 'Bg-Regular';
+	line-height: 24px;
+}
+.lokasyonaltgorsel {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.ekilebiliralan{
+	background: url(../images/ekilebiliralanzemin.jpg) no-repeat top center;
+	background-size: cover;
+	width: 100%;
+}
+
+.ekilebilirbaslik1{
+	margin: 0 auto;
+}
+.ekilebilirbaslik1 img{
+	max-width: 500px;
+	margin: 30px auto;
+	text-align: center;
+}
+.ekilebilirbaslik2 img{
+	max-width: 1100px;
+	margin: 30px auto;
+	text-align: center;
+}
+.ekilebilirbaslik3 img{
+	max-width: 510px;
+	margin: 30px auto;
+	text-align: center;
+}
+.ekilebilir span {
+	width: 100%;
+	display: table;
+	text-align: center;
+}
+.ekilebilir p {
+	font-family: 'Bg-Regular';
+	line-height: 24px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.ekilebiliraltgorsel {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.lagoonbaslik1 img{
+	max-width: 1000px;
+	margin: 30px auto;
+	text-align: center;
+}
+.lagoonbaslik2 img{
+	max-width: 750px;
+	margin: 30px auto;
+	text-align: center;
+}
+.goletbaslik1 img, .goletbaslik2 img{
+	max-width: 900px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.sulakbaslik1 img{
+	max-width: 500px;
+	margin: 30px auto;
+	text-align: center;
+}
+.sporbaslik1 img{
+	max-width: 550px;
+	margin: 30px auto;
+	text-align: center;
+}
+.sporbaslik2 img{
+	max-width: 1150px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.kurumsal span {
+	width: 100%;
+	display: table;
+	text-align: center;
+}
+.kurumsal p {
+	font-family: 'Bg-Regular';
+	line-height: 24px;
+	text-align: center;
+	padding-bottom: 50px;
+	width: 80%;
+	margin: 0 auto;
+}
+.anasayfamenu{
+		display: none;
+	}
+.telefon {
+    font-size: 50px;
+    color: #999;
+}
+.telefonmobil a {
+	font-size: 50px;
+    color: #999;
+}
+
+
+
+
+.galery-page .tabpage ul {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto
+}
+.galery-page .tabpage ul li {
+	float: left;
+	width: 23%;
+	margin: 5px;
+	margin-right: 22px
+}
+.galery-page .tabpage ul li:nth-child(1) {
+	/* width: 46% */
+}
+.galery-page .tabpage ul li a img {
+	border-radius: 3px;
+	border: 1px solid #FFF;
+}
+.genis {
+	padding: 50px 0;
+}
+
+
+.title {
+	position: relative;
+	border: 1px solid #fff;
+	width: 250px;
+	background: rgba(255, 255, 255, 0.3);
+	border-top: 0;
+	height: 350px;
+	display: table;
+	text-align: center;
+}
+.title p {
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+}
+.title p span {
+	display: block;
+}
+.title h2 {
+	position: absolute;
+	font-family: "YanoneKaffeesatz";
+	font-size: 36px;
+	color: #fff;
+	left: 0;
+	right: 0;
+	bottom: 15px;
+}
+.in-icerik {
+	width: 100%;
+	padding: 40px 0 60px 0;
+}
+.in-icerik p {
+	font-size: 20px;
+	color: #fff;
+	line-height: 28px;
+	font-weight: 100;
+}
+.specials-wrap {
+	width: 100%;
+	display: table;
+	margin: 0 auto;
+}
+.specials-title {
+	position: absolute;
+	display: table;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.specials-title p {
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+}
+.specials-title p span {
+	display: block;
+}
+.specials-title h2 {
+	font-family: "YanoneKaffeesatz";
+	font-size: 60px;
+	color: #fff;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+.specials-icerik {
+	padding: 60px 0;
+	box-sizing: border-box;
+}
+.specials-icerik p {
+	text-align: center;
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+.specials-icerik ul {
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+}
+.specials-icerik ul li {
+	font-size: 20px;
+	line-height: 28px;
+}
+.hakkimizda-bg {
+	background: url(../images/hakkimizda-slider.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.mobile-menu, .menu-btn, .mobile-teklif-form, .mobile-menu .header-phone, .mobile-menu .dilsecenek {
+	display: none;
+}
+.galeri-wrap {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+.galeri-wrap ul {
+	display: table;
+	margin-bottom: 50px
+}
+.galeri-wrap ul li {
+	float: left;
+	width: 23%;
+	margin-right: 12px;
+	margin-bottom: 15px;
+	border: 3px solid #d9d9d9;
+	transition: 300ms;
+	opacity: .8
+}
+.galeri-wrap ul li:hover {
+	opacity: 1;
+	transform: scale(1.1);
+	transition: 300ms
+}
+
+div#form-menu img {
+    width: 25px;
+    float: left;
+    margin-top: -3px;
+}
+#form-menu {
+	position: fixed;
+	text-align: left;
+	font-size: 22px;
+	top: 250px;
+	z-index: 5;
+	right: 279px;
+	transition: .5s ease-in-out;
+	height: auto;
+	display: block;
+	cursor: pointer;
+	background-image: url(../images/baslikzemin.png);
+	color: #fff;
+	width: 164px;
+	padding: 15px;
+	transform: rotate(-90deg);
+	text-shadow: 1px 1px 1px #000000b5;
+}
+.form_content {
+	z-index: 999;
+	width: 350px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #fff;
+	position: fixed;
+	text-align: center;
+	right: 0;
+	top: 180px;
+	transition: .5s ease-in-out;
+	font-weight: 300;
+	box-shadow: 0 0 50px #00000030;
+}
+.form-open {
+	right: -400px;
+	display: block;
+	transition: .5s ease-in-out;
+}
+.menu-open {
+	right: -74px!important;
+	display: block;
+	transition: .5s ease-in-out;
+}
+.villamobil{
+	display: none;
+}
+.ekilebilirbaslik2m{
+	display: none !important;
+}
+.lagoonbaslik1m{
+	display: none !important;
+}
+.sporbaslik2m{
+	display: none !important;
+}
+.goto-top {
+	position: fixed;
+	right: 10px;
+	bottom: 30px;
+	width: 50px;
+	display: none;
+	cursor: pointer
+}
+.goto-top:hover {
+	color: #333;
+	transition: color .5s ease
+}
+.katplan{
+	width: 83%;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+	display: table;
+}
+.katplan li {
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px;
+}
+.villaplanslogan{
+	margin: 50px auto;
+}
+.sosyalslogan{
+	margin: 30px auto;
+}
+.villaplangorsel {
+	width: 80%;
+	margin: 0 auto;
+}
+.boslukkapat{
+	margin-top: 0px;
+}
+.buttons {
+    position: absolute;
+    left: 0;
+    top: 48%;
+    z-index: 99;
+    width: 200px;
+}
+.buttons a {
+    display: block;
+    width: 100%;
+    background: #37b349;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 5px 0 0 0;
+    color: #fff;
+    text-align: left;
+    transition: 300ms;
+    float: left;
+    height: 37px;
+}
+
+.buttons a:hover {
+    transition: 300ms;
+    background: #40b8e6;
+}
+
+.buttons a span {
+    display: table;
+    float: right;
+    width: 25px;
+}
+.buttons a p {
+    font-size: 24px;
+    line-height: 34px;
+}
+.buttons a span img {
+    width: 100%;
+}
+
+.footer-sosyal {
+	float: right;
+	width: auto
+}
+.top-sosyal {
+    position: absolute;
+    right: 350px;
+    top: 60px;
+    z-index: 9999;
+}
+.top-sosyal ul {
+	display: inline-block;
+	float: right
+}
+.top-sosyal ul li {
+	float: left;
+	margin-right: 5px;
+	margin-top: 10px
+}
+
+.facebook {
+	background: url(../images/facebook.png)no-repeat top center;
+	height: 32px;
+	width: 32px;
+	cursor: pointer;
+	display: block;
+	transition: 300ms
+}
+.twitter {
+	background: url(../images/twitter.png)no-repeat top center;
+	height: 32px;
+	width: 32px;
+	display: block;
+	cursor: pointer;
+	transition: 300ms
+}
+.instagram {
+	background: url(../images/instagram.png)no-repeat top center;
+	height: 32px;
+	width: 32px;
+	display: block;
+	cursor: pointer;
+	transition: 300ms
+}
+.linkedin {
+	background: url(../images/linkedin.png)no-repeat top center;
+	height: 32px;
+	width: 32px;
+	display: block;
+	cursor: pointer;
+	transition: 300ms
+}
+.googleplus {
+	background: url(../images/googleplus.png)no-repeat top center;
+	height: 32px;
+	width: 32px;
+	display: block;
+	cursor: pointer;
+	transition: 300ms
+}
+.youtube {
+	background: url(../images/youtube.png)no-repeat top center;
+	height: 32px;
+	width: 32px;
+	display: block;
+	cursor: pointer;
+	transition: 300ms
+}
+.footer-sosyal ul li:nth-child(5) {
+	margin-right: 0
+}

@@ -1,0 +1,795 @@
+@media only screen and (min-width:1700px){
+    .container {
+        width: 100%;
+    }
+    .riva1 {
+		/*padding-top: 25px;*/
+	}
+   .villaplangorsel {
+		width: 70%;
+	}
+	
+
+}
+@media only screen and (max-width:1680px){
+
+    .container {
+        width: 100%;
+    }
+	.riva1 {
+		/*padding-top: 50px;*/
+	}
+	.riva1sol p, .riva2sag p, .riva3sol p {
+		width: 75%;
+	}
+	.rivaalt {
+		width: 90%;
+	}
+	.footer-wrapper {
+    	width: 90%;
+	}
+	.villaplangorsel {
+		width: 70%;
+	}
+	.top-sosyal {
+    	right: 11%;
+	}
+   
+}
+@media only screen and (max-width:1440px){
+    
+	.logo {
+    	left: 50px;
+		top: 5px;
+	}
+	.menu {
+		top: 106px;
+	}
+	.footer-wrapper {
+		width: 96%;
+	}
+	.footer-wrap {
+    	width: 100%;
+	}
+	.lokasyonaltgorsel {
+    	width: 100%;
+	}
+	.villaplangorsel {
+		width: 70%;
+	}
+	.top-sosyal {
+		right: 1%;
+		top: 40px;
+	}
+}
+
+
+@media(min-width:1200px) and (max-width:1367px){
+	.menu{
+		width: 75%;
+	}
+	.rivaalt {
+		width: 98%;
+	}
+
+    .menu ul li a {
+        font-size: 18px;
+    }
+    .menu ul li:hover .submenu {
+        top: 30px;
+    }
+	.box ul li {
+    	margin-right: 40px;
+	}
+  	.galery-page .tabpage ul li {
+    	width: 31%;
+	}
+	.villaplangorsel {
+		width: 60%;
+	}
+	#form-menu {
+	    top: 151px;
+	}
+	.form_content {
+    	top: 80px;
+	}
+}
+@media only screen and (max-width:1024px){
+	.buttons {
+		top: 30%;
+	}
+	.logo {
+		left: 10px;
+		top: 9px;
+		width: 18%;
+	}
+    .menu {
+        display: none;
+    }
+	.mobile-menu ul li ul li {
+		width: auto;
+		font-size: 13px;
+		color: #9a9a9a;
+		padding: 5px 0;
+	}
+	.mobile-menu ul li ul li a{
+		color: #9a9a9a;
+	}
+	.mobile-menu ul li ul {
+		border-bottom: 1px solid #eaeaf1;
+	}
+	.box {
+    	display: none;
+	}
+	.sosyalmedya {
+		float: unset;
+		width: 60%;
+		margin: 10px auto;
+	}
+	.rivaalt {
+		width: 100%;
+	}
+	.riva1sol span img {
+		max-width: 300px;
+	}
+	.rivabaslik2 {
+		margin-top: 0px;
+	}
+	.riva1sol p, .riva2sag p, .riva3sol p {
+		width: 90%;
+	}
+	.riva1 {
+    	height: 450px;
+	}
+	.riva2sag span img {
+		max-width: 390px;
+	}
+	.riva2 {
+    	height: 470px;
+	}
+	.riva3sol {
+    	padding-top: 20px;
+	}
+	.riva3sol span img {
+		max-width: 470px;
+	}
+	.riva3 {
+    	height: 600px;
+	}
+	.footer-wrapper {
+		margin: 0px auto;
+	}
+	.slideraltslogan {
+    	margin: 40px auto;
+    	font-size: 30px;
+	}
+	.svillalideraltslogan {
+    	margin: 10px auto;
+    	font-size: 30px;
+	}
+	.lokasyonbaslik1 img {
+		max-width: 400px;
+		margin: 10px auto;
+	}
+	.ekilebilirbaslik1 img {
+    	margin: 0px auto;
+	}
+	.ekilebilirbaslik2 img {
+		max-width: 900px;
+	}
+	.ekilebilirbaslik3 img {
+    	margin: 0px auto;
+	}
+	.ekilebilir p {
+	    padding: 20px;	
+	}
+	.lagoonbaslik1 img {
+		max-width: 760px;
+		margin: 0px auto;
+	}
+	.lagoonbaslik2 img {
+		max-width: 550px;
+		margin: 0px auto;
+	}
+	.sporbaslik1 img {
+		max-width: 430px;
+		margin: 0px auto;
+	}
+	.sporbaslik2 img {
+		max-width: 900px;
+		margin: 10px auto;
+	}
+	.goletbaslik1 img, .goletbaslik2 img {
+		max-width: 750px;
+		margin: 0px auto;
+	}
+	.sulakbaslik1 img {
+		max-width: 400px;
+		margin: 0px auto;
+	}
+	.galery-page .tabpage ul li {
+		width: 30%;
+		margin: 17px;
+	}
+	.top-sosyal {
+		right: 7%;
+		top: 6px;
+	}
+    /*mobile menu*/
+.mobilemenu{
+    overflow: hidden;
+}
+.mobile-menu {
+    position: fixed;
+    right: -300px;
+    top: 0px;
+    z-index: 9999;
+    background-color: #fff;
+    width: 250px;
+    height: 100%;
+    display: block;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    text-align: right;
+}
+.mobile-menu > ul {
+    width: 100%;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+.mobile-menu > ul > li {
+    width: 100%;
+    display: inline-block;
+}
+.mobile-menu > ul > li > a {
+    color: #8d8d8e;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    border-bottom: 1px solid #eaeaf1;
+}
+.shadow-mask {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.50);
+    visibility: hidden;
+    z-index: -1;
+    display: block;
+    -webkit-transition: all 0.5s ease-out;  
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;   
+}
+.menu-btn {
+    position: fixed;
+    right: 0px;
+    top: 10px;
+    z-index: 15;
+    background-color: #fff;
+    width: 45px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    transition: all 0.2s ease-in-out;
+    background-image: url(../images/burger.png);
+    background-size: 70%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-indent: -99999em;
+    box-shadow: -3px 0px 6px rgba(0, 0, 0, 0.30);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.menu-btn.open {
+    right: 250px;
+    background-image: url(../images/close-menu.png);
+    background-size: 55%;
+    -webkit-transition: all 0.5s ease-out;  
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;   
+}
+.mobile-menu.open {
+    right: 0px;  
+    -webkit-transition: all 0.5s ease-out;  
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;   
+}
+.shadow-mask.open {
+    visibility: inherit;
+    z-index: 7;
+    -webkit-transition: all 0.5s ease-out;  
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;   
+}
+.mobil-altmenu {
+    display: none;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.mobil-altmenu li a {
+    color: #8d8d8e;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 1px 0px;
+    transition:300ms;
+}
+.mobil-altmenu li {
+    width: 100%;
+    display: inline-block;
+}
+body.hidden {
+    overflow: hidden;
+    position: relative;
+}
+/*mobile menu finish*/	
+.mobile-menu > ul > li > a:hover {
+    color: #0a3a8e;
+    transition:300ms;
+}
+.mobil-altmenu li a:hover {
+    color: #e86a00;
+    transition:300ms;
+}	
+.dilsecenek {
+    display: none;
+}
+
+.container {
+    width: 100%;
+}
+
+
+.dilsecenek ul li a {
+    font-size: 16px;
+}
+.mobile-menu .dilsecenek {
+    display: block;
+    float: right;
+    width: auto;
+    margin: 0 0 10px;
+}
+
+.header-phone i {
+    width: 15px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.header-phone a {
+    font-size: 24px;
+}
+
+.header-phone a span {
+    font-size: 12px;
+}
+.click {
+    width: 20px;
+    height: 20px;
+    bottom: 10px;
+}
+
+.slider .slider-text {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 60%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 8px 0;
+}
+
+.slider .slider-text h2 {
+    font-size: 40px;
+}
+
+.slider .slider-text p {
+    font-size: 18px;
+}
+
+.hizmetler-btn, .specials-btn,.servisler-btn {
+    height: 220px;
+}
+
+#accordion a h3 {
+    font-size: 40px;
+    line-height: 45px;
+    padding-right: 20px;
+}
+
+#accordion a p {
+    font-size: 16px;
+    line-height: 24px;
+    width: auto;
+    padding-right: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.accordion-content ul li {
+    height: 300px;
+    width: 100%;
+}
+
+.accordion-content {
+    height: 300px;
+}
+
+.accordion-content ul li p {
+    display: none;
+}
+.accordion-content ul li h4 {
+    font-size: 25px;
+}
+.accordion-content ul li a h4 {
+    font-size: 25px;
+}
+
+.icerik {
+    width: 90%;
+}
+.box h4 {
+    font-size: 18px;
+}
+
+.box ul li a {
+    font-size: 14px;
+}
+
+.sosyalmedya h4 {
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.footer-text {
+    font-size: 12px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    line-height: initial;
+}
+
+.footer-logo {
+    width: 30%;
+    display: none;
+}
+
+.footer-wrap {
+    width: 100%;
+}
+
+.logos ul {
+    width: 100%;
+}
+.iletisim-wrap h2 {
+    width: 28%;
+    font-size: 22px;
+}
+
+.iletisim-wrap p {
+    font-size: 16px;
+}
+
+.iletisim-wrap h2 i {
+    width: 25px;
+    height: 25px;
+}
+.ucakbileti,.tumturkiye {
+    height: 300px;
+    background-size: cover;
+}
+
+.arackiralama,.danisma ,.tumpremium,.tumcorporate{
+    height: 300px;
+}
+.specials-title h2 {
+    font-size: 30px;
+}
+
+.specials-title p {
+    font-size: 16px;
+}
+
+.specials-icerik p {
+    font-size: 16px;
+}
+
+.specials-icerik ul li {
+    font-size: 16px;
+}
+
+
+.fancybox-slide>* {
+    background: #848485;
+}
+
+.hizmetler-ok button {
+    width: 35px;
+    height: 35px;
+}
+
+
+.icon span {
+    font-size: 16px;
+}
+.iletisim-right {
+    float: none;
+    width: 100%;
+}
+
+.maps {
+    float: none;
+    width: 100%;
+    height: 300px;
+}
+.header-phone {
+    display:none
+}
+.mobile-menu .header-phone {
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 10px;
+}
+.hizmetler-ok {
+    display: none;
+}
+}
+
+@media only screen and (max-width:768px){
+	.sosyalikonlarm {
+		margin-left: 20px;
+	}
+	.sosyalikonlarm li{
+		float: left;
+		margin: 8px;
+	}
+	
+	.top-sosyal {
+		display: none;
+	}
+	.riva1sol span img {
+		max-width: 250px;
+	}
+	.riva1sol p, .riva2sag p, .riva3sol p {
+    	font-size: 15px;
+    	line-height: 21px;
+	}
+	.riva1 {
+		height: 380px;
+	}
+	.riva2sag span img {
+    	max-width: 310px;
+	}
+	.riva2 {
+    	height: 400px;
+	}
+	.riva3sol span img {
+    	max-width: 350px;
+	}
+	.riva3 {
+    	height: 470px;
+	}
+	.riva3sol {
+		padding-top: 0px;
+	}
+	.ekilebilir p {
+		padding: 0 20px;
+	}
+	.slideraltslogan {
+		margin: 20px auto;
+		font-size: 24px;
+	}
+	.galery-page .tabpage ul li {
+		width: 45%;
+		margin: 18px;
+	}
+	.villaplangorsel {
+		width: 90%;
+	}
+}
+
+
+@media only screen and (max-width:499px){
+	.telefonmobil{
+		display: none;
+	}
+	.buttons {
+		top: unset;
+		right: 0;
+		left: unset;
+		bottom: 1%;
+	}
+	.kapatbtn {
+		display: none;
+	}
+	.form_content {
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 100%;
+		box-sizing: border-box;
+		position: relative;
+		background: rgba(255, 255, 255, 0.3);
+	}
+	.form_content2 {
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 100%;
+		box-sizing: border-box;
+		position: relative;
+		background: rgba(255, 255, 255, 0.3);
+	}	
+	.form {
+		width: 100%;
+		display: table;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	div#form-menu {
+		display: none 
+	}
+	.bosluk {
+		height: 1px;
+	}
+	
+    .logo {
+		width: 100%;
+		left: 0;
+		right: 0;
+		margin: 20px auto;
+	}
+    
+    .logo h1 {
+        width: 200px;
+    }
+	.anasayfamenu {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		color: #333;
+		padding: 50px 0;
+	}
+	.anasayfamenu li {
+		padding: 10px 0;
+		height: auto;
+		width: 100%;
+		background: url(../images/yesilok.png) no-repeat right 15px center;
+	}
+	.anasayfamenu li a {
+		color: #414033;
+		height: auto;
+	}
+	.anasayfamenu li div {
+		color: #979797;
+		border-bottom: 1px solid #979797;
+		height: 1px;
+	}
+    .anasayfamenu li:nth-child(2), .anasayfamenu li:nth-child(4), .anasayfamenu li:nth-child(6), .anasayfamenu li:nth-child(8), .anasayfamenu li:nth-child(10), .anasayfamenu li:nth-child(12) {
+		background: none;
+	}
+	.riva1sag, .riva2sag, .riva3sag {
+		width: 100%;
+		float: unset;
+		margin-bottom: 50px;
+	}
+	.riva1sol, .riva2sol, .riva3sol {
+		width: 100%;
+		float: unset;
+		margin-bottom: 20px;
+	}
+	.riva1, .riva2, .riva3 {
+		height: 100%;
+	}
+	.rivakucukresimler span {
+    	margin: 0px auto;
+	}
+	.sosyalmedya {
+		width: 100%;
+	}
+	.slideraltslogan {
+		text-align: center;
+		margin-top: 170px;
+	}
+	.lokasyonsol {
+		width: 100%;
+		float: unset;
+	}
+	.lokasyonaltgorsel{
+		display: none;
+	}
+	.lokasyonara{
+		display: none;
+	}
+	.galery-page .tabpage ul li {
+		width: 42%;
+		margin: 15px;
+	}
+	.villamobil{
+		display: block;
+		padding: 10px;
+	}
+	.villadeskop{
+		display: none;
+	}
+	.planust {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		box-sizing: border-box;
+		margin-left: 10%;
+	}
+	.planust li{
+		width: 18%;
+		float: left;
+		margin: 1%;
+	}
+	.planalt li{
+		width: 18%;
+		float: left;
+		margin: 1%;
+	}
+	.ekilebilirbaslik2m{
+		display: block !important;
+	}
+	.ekilebilirbaslik2{
+		display: none !important;
+	}
+	.lagoonbaslik1m{
+		display: block !important;
+	}
+	.lagoonbaslik1{
+		display: none !important;
+	}
+	.sporbaslik2m{
+		display: block !important;
+	}
+	.sporbaslik2{
+		display: none !important;
+	}
+    .villaplangorsel {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:415px){
+	
+}
+
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) { 
+   .buttons {
+		bottom: 19%;
+	}
+        
+}
+@media only screen and (max-width:320px){
+   
+}

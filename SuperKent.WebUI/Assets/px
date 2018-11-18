@@ -1,0 +1,1 @@
+var t = Boolean(navigator.appVersion.match(/msie/i)) ? new Image : document.createElement("img");t.width = 1; t.height = 1; t.style.display ="none"; t.src = "//app.rtb.adhood.com/pxset?pid=5&uid=28566880-e8bb-11e8-bd5b-abbaf6b642c1";
