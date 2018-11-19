@@ -5,25 +5,45 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Assets\fbevents.js" />
+    <Content Remove="wwwroot\Assets\gtm.js" />
+    <Content Remove="wwwroot\Assets\jquery.min.js" />
+    <Content Remove="wwwroot\Assets\maskedinput.js" />
+    <Content Remove="wwwroot\Assets\moment.min.js" />
+    <Content Remove="wwwroot\Assets\run.js" />
+    <Content Remove="wwwroot\Assets\validate.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\Assets\fbevents.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Assets\gtm.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Assets\jquery.min.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Assets\maskedinput.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Assets\moment.min.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Assets\run.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\Assets\validate.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\Assets\001-arrows-1.png" />
     <None Include="wwwroot\Assets\108117216654200" />
     <None Include="wwwroot\Assets\analytics.js" />
     <None Include="wwwroot\Assets\animate.css" />
-    <None Include="wwwroot\Assets\fbevents.js.indir" />
+    <None Include="wwwroot\Assets\fbevents.js" />
     <None Include="wwwroot\Assets\footer_logo1.png" />
     <None Include="wwwroot\Assets\footer_logo2.png" />
     <None Include="wwwroot\Assets\footer_logo3.png" />
     <None Include="wwwroot\Assets\footer_logo4.png" />
     <None Include="wwwroot\Assets\form.css" />
-    <None Include="wwwroot\Assets\gtm.js.indir" />
+    <None Include="wwwroot\Assets\gtm.js" />
     <None Include="wwwroot\Assets\jquery.fancybox.min.css" />
     <None Include="wwwroot\Assets\jquery.fancybox.min.js" />
-    <None Include="wwwroot\Assets\jquery.min.js.indir" />
+    <None Include="wwwroot\Assets\jquery.min.js" />
     <None Include="wwwroot\Assets\kvkkpolitikasivebasvuruformu.html" />
     <None Include="wwwroot\Assets\logo.png" />
-    <None Include="wwwroot\Assets\maskedinput.js.indir" />
+    <None Include="wwwroot\Assets\maskedinput.js" />
     <None Include="wwwroot\Assets\media-query.css" />
-    <None Include="wwwroot\Assets\moment.min.js.indir" />
+    <None Include="wwwroot\Assets\moment.min.js" />
     <None Include="wwwroot\Assets\mp1.jpg" />
     <None Include="wwwroot\Assets\mp2.jpg" />
     <None Include="wwwroot\Assets\mp3.jpg" />
@@ -36,11 +56,11 @@
     <None Include="wwwroot\Assets\owl.carousel.min.css" />
     <None Include="wwwroot\Assets\owl.carousel.min.js" />
     <None Include="wwwroot\Assets\px" />
-    <None Include="wwwroot\Assets\run.js.indir" />
+    <None Include="wwwroot\Assets\run.js" />
     <None Include="wwwroot\Assets\sanaltur.png" />
     <None Include="wwwroot\Assets\style.css" />
     <None Include="wwwroot\Assets\track.ashx" />
-    <None Include="wwwroot\Assets\validate.js.indir" />
+    <None Include="wwwroot\Assets\validate.js" />
     <None Include="wwwroot\Assets\validateMessage.js" />
     <None Include="wwwroot\Assets\validationEngine.jquery.css" />
     <None Include="wwwroot\Assets\villaplanslider.jpg" />

@@ -270,32 +270,33 @@
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;   
 }
-.menu-btn {
-    position: fixed;
-    right: 0px;
-    top: 10px;
-    z-index: 15;
-    background-color: #fff;
-    width: 45px;
-    height: 40px;
-    text-align: center;
-    font-size: 25px;
-    display: block;
-    transition: all 0.2s ease-in-out;
-    background-size: 70%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-indent: -99999em;
-    box-shadow: -3px 0px 6px rgba(0, 0, 0, 0.30);
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-}
+    .menu-btn {
+        position: fixed;
+        right: 0px;
+        top: 10px;
+        z-index: 15;
+        background-color: #fff;
+        width: 45px;
+        height: 40px;
+        text-align: center;
+        font-size: 25px;
+        display: block;
+        transition: all 0.2s ease-in-out;
+        background-size: 70%;
+        background-image: url(../Assets/burger.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-indent: -99999em;
+        box-shadow: -3px 0px 6px rgba(0, 0, 0, 0.30);
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+        -ms-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+    }
 .menu-btn.open {
     right: 250px;
-    background-image: url(../images/close-menu.png);
+    background-image: url(../Assets/close-menu.png);
     background-size: 55%;
     -webkit-transition: all 0.5s ease-out;  
     -moz-transition: all 0.5s ease-out;
@@ -681,7 +682,7 @@ body.hidden {
 		padding: 10px 0;
 		height: auto;
 		width: 100%;
-		background: url(../images/yesilok.png) no-repeat right 15px center;
+		background: url(../Assets/mp1.jpg) no-repeat right 15px center;
 	}
 	.anasayfamenu li a {
 		color: #414033;
